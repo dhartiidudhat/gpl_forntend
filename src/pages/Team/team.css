@@ -1,0 +1,60 @@
+/* Team Member Card Styles */
+.team-member-card {
+    display: flex;
+    flex-direction: column;
+    background: #E6E6E6;
+    border-radius: 2em;
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  .team-member-image {
+    width: 10em;
+    border-radius: 2em 0 0 2em;
+  }
+  
+  .team-member-details {
+    padding: 16px 16px;
+  }
+  
+  .team-member-details .MuiTypography-root {
+    margin-bottom: 0.5em;
+  }
+  
+  .team-member-rank {
+    width: 10em;
+    margin-top: 1em;
+    border-radius: 2em;
+  }
+  
+  /* Auction Summary Styles */
+  .auction-summary {
+    display: flex;
+    flex-direction: column;
+    background: #E6E6E6;
+    border-radius: 2em;
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  .auction-summary .MuiTypography-root {
+    font-weight: bold;
+  }
+  
+  .auction-summary-row {
+    margin: 0.5em 0;
+  }
+  
+  /* Menu Styles (for responsive menu) */
+  .menu {
+    flex-direction: column;
+  }
+  
+  .menu .MuiGrid-root {
+    margin: 0.5em 0;
+  }
+  
+  @media (max-width: 768px) {
+    /* Add responsive styles here for screens smaller than 768px */
+  }
+  

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;  
+}
+/* Track */
+::-webkit-scrollbar-track {
+ background: #f1f1f1;
+ border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ background: #FF7A00;
+ border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body {  
+  background: url(/src/images/app_bg.png) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Kanit', sans-serif !important;
+}
+
+html{
+  height: 100%;
+}
+
+.primary-text-color {
+  color: #ff7a00;
+}
+
+.btn-black {
+  color: black;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.text-right{
+  text-align: right;
+}
+
+
+.css-mhc70k-MuiGrid-root {
+  justify-content: center;
+
+}
+
+.logo {  
+  background: url(/src/images/GPL_logo.png) center center no-repeat;
+  background-size: contain;  
+  width: 70%;
+  aspect-ratio: 1/1;
+}
+.logos {  
+  background: url(/src/images/gtl_logo.svg) center center no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 60px;
+}
